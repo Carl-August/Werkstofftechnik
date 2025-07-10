@@ -88,11 +88,11 @@ h2 {
     background-color: #dc3545; /* Red for wrong */
 }
 
-.btn.correct:hover, .btn.wrong:hover {
-    background-color: #218838; /* Darker green */
+.btn.correct:hover {
+    background-color: #218838 !important; /* Darker green */
 }
 .btn.wrong:hover {
-    background-color: #c82333; /* Darker red */
+    background-color: #c82333 !important; /* Darker red */
 }
 
 
@@ -114,31 +114,47 @@ h2 {
     color: #dc3545;
 }
 
-.add-question-button-fixed {
+
+/* FAB Container and Buttons */
+.fab-container {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #17a2b8;
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: flex-end; /* Align buttons to the right */
+    z-index: 999; /* Below modals */
+}
+
+.add-question-button-fixed, .fab-action-button {
+    background-color: #007bff; /* Primary blue */
     color: white;
     border: none;
-    border-radius: 50px; /* Circular or pill shape */
-    padding: 15px;
+    border-radius: 50%; /* Circular */
+    width: 56px;  /* Standard FAB size */
+    height: 56px; /* Standard FAB size */
     box-shadow: 0 2px 10px rgba(0,0,0,0.2);
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1em;
-    z-index: 1000; /* Ensure it's above other content */
+    font-size: 1.2em; /* Adjust icon size if needed via font-size or direct svg styling */
+    margin-top: 10px; /* Space between FABs if stacked */
+    transition: background-color 0.3s ease;
 }
 
-.add-question-button-fixed svg {
-    margin-right: 8px;
+.add-question-button-fixed:hover, .fab-action-button:hover {
+    background-color: #0056b3; /* Darker blue */
 }
 
-.add-question-button-fixed:hover {
-    background-color: #138496;
+.fab-action-button {
+    background-color: #17a2b8; /* Teal for secondary action */
 }
+
+.fab-action-button:hover {
+    background-color: #117a8b; /* Darker teal */
+}
+
 
 .add-question-button { /* For the button in the "no questions" message */
     background-color: #007bff;
@@ -229,6 +245,42 @@ h2 {
     background-color: #218838;
 }
 
+/* Styling for Answer Catalog Modal */
+#answer-catalog-list-container {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#answer-catalog-list-container h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#answer-catalog-list {
+    list-style-type: none;
+    padding-left: 0;
+    max-height: 200px; /* Limit height and make scrollable */
+    overflow-y: auto;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+#answer-catalog-list li {
+    padding: 8px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 0.95em;
+}
+
+#answer-catalog-list li:last-child {
+    border-bottom: none;
+}
+
+#empty-catalog-info {
+    color: #777;
+    font-style: italic;
+}
+
 
 .hidden {
     display: none !important; /* Force hide */
@@ -245,7 +297,7 @@ h2 {
 }
 
 #no-questions-message p {
-    margin: 0 0 15px 0;
+    margin: 0 0 10px 0; /* Adjusted margin */
     font-size: 1.1em;
 }
 

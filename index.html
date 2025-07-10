@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zufällige Quiz App</title>
+    <title>Werkstoffquiz</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Quiz App</h1>
+        <h1>Werkstoffquiz</h1>
 
         <div id="no-questions-message" class="hidden">
-            <p>Bitte füge zuerst Fragen hinzu, um das Quiz zu starten!</p>
+            <p>Bitte füge zuerst Fragen hinzu, um das Werkstoffquiz zu starten!</p>
+            <p id="no-catalog-message" class="hidden" style="color: #dc3545; margin-top: 10px;">Hinweis: Der Antwortkatalog enthält nicht genügend Einträge. Bitte füge weitere Antworten hinzu, um vielfältige Quizfragen zu ermöglichen.</p>
             <button id="show-add-question-modal-initial" class="add-question-button">Frage hinzufügen</button>
         </div>
 
@@ -30,38 +31,51 @@
             <button id="next-question-btn" class="btn hidden">Nächste Frage</button>
         </div>
 
-        <button id="show-add-question-modal" class="add-question-button-fixed">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
-            <span>Frage hinzufügen</span>
-        </button>
+        <div class="fab-container">
+            <button id="show-answer-catalog-modal-btn" class="fab-action-button" title="Antwortkatalog verwalten">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+            </button>
+            <button id="show-add-question-modal" class="add-question-button-fixed" title="Frage hinzufügen">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                <!-- <span>Frage hinzufügen</span> -->
+            </button>
+        </div>
     </div>
 
+    <!-- Modal zum Hinzufügen von Fragen -->
     <div id="add-question-modal" class="modal hidden">
         <div class="modal-content">
-            <span class="close-button">&times;</span>
-            <h2>Neue Frage hinzufügen</h2>
+            <span class="close-button close-add-question-modal">&times;</span>
+            <h2>Neue Werkstofffrage hinzufügen</h2>
             <form id="add-question-form">
                 <label for="new-question">Frage:</label>
-                <textarea id="new-question" rows="3" required></textarea>
+                <textarea id="new-question" name="new-question" rows="3" required></textarea>
 
-                <label for="answer1">Antwort 1:</label>
-                <input type="text" id="answer1" required>
-
-                <label for="answer2">Antwort 2:</label>
-                <input type="text" id="answer2" required>
-
-                <label for="answer3">Antwort 3:</label>
-                <input type="text" id="answer3" required>
-
-                <label for="correct-answer">Richtige Antwort:</label>
-                <select id="correct-answer" required>
-                    <option value="0">Antwort 1</option>
-                    <option value="1">Antwort 2</option>
-                    <option value="2">Antwort 3</option>
-                </select>
+                <label for="correct-answer-text">Korrekte Antwort:</label>
+                <input type="text" id="correct-answer-text" name="correct-answer-text" required>
 
                 <button type="submit" class="btn">Frage speichern</button>
             </form>
+        </div>
+    </div>
+
+    <!-- Modal für Antwortkatalog -->
+    <div id="answer-catalog-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-button close-answer-catalog-modal">&times;</span>
+            <h2>Antwortkatalog verwalten</h2>
+            <form id="add-catalog-answer-form">
+                <label for="new-catalog-answer">Neue Katalog-Antwort (Distraktor):</label>
+                <input type="text" id="new-catalog-answer" name="new-catalog-answer" required>
+                <button type="submit" class="btn">Zum Katalog hinzufügen</button>
+            </form>
+            <div id="answer-catalog-list-container">
+                <h3>Vorhandene Katalog-Antworten:</h3>
+                <ul id="answer-catalog-list">
+                    <!-- Hier werden Katalogeinträge per JS eingefügt -->
+                </ul>
+                <p id="empty-catalog-info" class="hidden">Der Antwortkatalog ist leer.</p>
+            </div>
         </div>
     </div>
 
