@@ -1,0 +1,662 @@
+[
+    {
+        "question": "Was versteht man unter der Struktur von Werkstoffen?",
+        "correctAnswer": "Geometrische Anordnung der Bausteine: Atome, Ionen, Moleküle im Volumenelement"
+    },
+    {
+        "question": "Was versteht man unter Erholung und Rekristallisation?",
+        "correctAnswer": "Erholung: Umordnen von Versetzungen, geringe Entfestigung, Bildung von Subkörnern, gestreckte Körner bleiben erhalten. Rekristallisation: (0,3…0,5 Ts) Abbau von Gitterfehlern durch Neubildung des Gefüges, Festigkeitsabnahme (Vermindern der Verspannungen), Keimbildung und Wachstum."
+    },
+    {
+        "question": "Durch welche Parameter wird die Korngröße beim Rekristallisationsglühen beeinflusst und welche Bedingungen muss man einhalten, damit ein feinkörniges Gefüge entsteht?",
+        "correctAnswer": "Verformungsgrad, Glühtemperatur, Verformungsgrad, Glühdauer sind maßgebend für die Korngröße. Die Temperatur darf nicht viel überschritten werden, kurze Glühdauer führt zu feinkörnigem Gefüge."
+    },
+    {
+        "question": "Weshalb wird ein feinkörniges Gefüge angestrebt?",
+        "correctAnswer": "Erreichen von zähem Werkstoff mit hoher Festigkeit."
+    },
+    {
+        "question": "Nennen Sie allgemeine Kriterien für einen Hochtemperaturwerkstoff!",
+        "correctAnswer": "Strukturelle Belastbarkeit nahe Schmelztemperatur, Oxidationsbeständigkeit, hoher Schmelzpunkt, Gefüge (Mischkristall), Zusammensetzung, intermetallische Phasen (Teilchenhärtung), Oxide, Legieren (Kriechen verhindern)."
+    },
+    {
+        "question": "Durch welche Maßnahmen kann die Warmfestigkeit eines Werkstoffes erhöht werden?",
+        "correctAnswer": "Grobes Gefüge (Korngrenzengleiten vermeiden) durch Grobkornglühen, Legierungselemente (bei Fe: Cr, Mo, V), Teilchenhärtung (Ausscheidungen: Carbide, Nitride)."
+    },
+    {
+        "question": "Welchen Einfluss haben Kerben auf die statische Festigkeit und Zähigkeit?",
+        "correctAnswer": "Mehrachsiger Spannungszustand, statische Festigkeit (auf Querschnitt der Kerbebene bezogen) wird erhöht, Zähigkeit nimmt ab."
+    },
+    {
+        "question": "Welche Stadien des Ermüdungsvorganges unterscheidet man?",
+        "correctAnswer": "Ausbildung einer Ermüdungsstruktur, Bildung von Anrissen, Ausbreitung eines Risses."
+    },
+    {
+        "question": "Weshalb wird bei zyklischer Beanspruchung der Werkstoff bereits unterhalb der Streckgrenze geschädigt?",
+        "correctAnswer": "Ermüdungsstruktur bildet sich aus, reale Werkstoffe sind nie optimal – haben immer Kerben, Anrissbildung."
+    },
+    {
+        "question": "Woran erkennt man mit bloßem Auge einen Ermüdungsbruch (Dauerbruch)?",
+        "correctAnswer": "Bruchfläche besteht aus zwei Bereichen: Dauerbruchfläche (relativ glatt, matt glänzend) mit Rastbruchlinien; Rest- und Dauerbruch (stark zerklüftet, körniges Aussehen)."
+    },
+    {
+        "question": "Was sind Schwingungsstreifen? Kann man sie mit bloßem Auge erkennen?",
+        "correctAnswer": "Sind nicht sichtbar; sind Erhöhungen und Vertiefungen, die senkrecht zur Ausbreitungsrichtung verlaufen, entstehen durch Abgleiten auf zwei Gleitsystemen."
+    },
+    {
+        "question": "Welchen Einfluss haben Eigenspannungen auf die Ermüdungsfestigkeit?",
+        "correctAnswer": "Druck im Oberflächenbereich: größere Ermüdungsfestigkeit. Zug im Oberflächenbereich: kleinere Ermüdungsfestigkeit."
+    },
+    {
+        "question": "Welche praktischen Maßnahmen können zur Erhöhung der Ermüdungsfestigkeit (Zeit bzw. Dauerfestigkeit) genutzt werden?",
+        "correctAnswer": "Einbringen von Druckeigenspannungen in der Oberflächenzone (z.B. durch Kugelstrahlen). Erhöhung der Streckgrenze in der Randzone (Oberflächenbehandlung: Einsatzhärten, Nitrieren, Borieren). Schwingfestigkeit kann bis 100% oder mehr erhöht werden."
+    },
+    {
+        "question": "Was versteht man unter Verschleiß?",
+        "correctAnswer": "Unerwünschte Veränderung der Oberfläche von Körpern durch Lostrennen kleiner Teilchen infolge mechanischer Ursachen, z.B. Reibung, bei aufeinander gleitenden Oberflächen, Kontakt und Relativbewegung eines festen, flüssigen oder gasförmigen Gegenkörpers; immer verbunden mit Materialverlust."
+    },
+    {
+        "question": "Erklären Sie kurz die Verschleißmechanismen und geben Sie jeweils allgemeine Lösungsmöglichkeiten für einen geeigneten Werkstoffeinsatz an!",
+        "correctAnswer": "Adhäsion: Ausbildung und Trennung von Grenzflächen (z.B. Kaltverschweißen), Materialübertrag. Lösung: artfremde Werkstoffpaarung, heterogenes Gefüge, OF-Schichten mit geringer Adhäsionsneigung. Abrasion: Materialabtrag durch ritzende Beanspruchung (Kratzer, Mulden, Wellen). Lösung: hohe Härte, gummielastische Werkstoffe. Tribochemische Reaktion: Entstehung von Reaktionsprodukten durch tribologische Beanspruchung, Schutzschicht kann entstehen. Lösung: Materialien verbinden, die nicht miteinander reagieren. Oberflächenzerrüttung: Ermüdung und Rissbildung im Oberflächenbereich. Lösung: Werkstoffe mit hoher Härte und Zähigkeit, feinkörnig, Schmierung, geringe OF-Rauhigkeit."
+    },
+    {
+        "question": "Weshalb ist der Verschleiß nicht durch eine Werkstoffkenngröße zu messen?",
+        "correctAnswer": "Verschleiß hängt nicht nur vom Werkstoff ab, sondern von den Verschleißbedingungen (Systemeigenschaft)."
+    },
+    {
+        "question": "Was versteht man unter Korrosion?",
+        "correctAnswer": "Physikochemische Wechselwirkung zwischen Metall und Umgebung, führt zu Veränderung des Metalls und kann die Funktion beeinträchtigen."
+    },
+    {
+        "question": "Was ist die Ursache der Korrosion?",
+        "correctAnswer": "Abnahme der freien Enthalpie bei Oxidation; energetisch günstiger, daher läuft Korrosion immer freiwillig ab."
+    },
+    {
+        "question": "Geben Sie ein Beispiel für chemische Korrosion an!",
+        "correctAnswer": "Metall + Sauerstoff → Zunder; Hochtemperaturkorrosion von Kupfer (schwarzer Oxidbelag)."
+    },
+    {
+        "question": "Was ist elektrochemische Korrosion?",
+        "correctAnswer": "Bildung von Korrosionselementen bei unterschiedlichen Metallen. Ein Metall geht in Lösung (Voraussetzung: Elektrolyt, z.B. Wasser), Metall bestrebt in Lösung zu gehen, Ausbildung eines Potentials."
+    },
+    {
+        "question": "Welche anodische und kathodische Reaktionen laufen bei den beiden Korrosionstypen ab?",
+        "correctAnswer": "Elektrochemische Reaktionen: Anodische Metallauflösung: Me → Me^z+ + z e^-. Kathodische Metallabscheidung: Me^z+ + z e^- → Me. Kathodische Wasserstoffabscheidung: 2H^+ + 2e^- → H2. Kathodische Hydroxylionenbildung: ½ O2 + 2e^- + H2O → 2OH^-. Chemische Reaktion: M + O → M^2+ + O^2- (z.B. Fe → FeO → Fe3O4 → Fe2O3 + O2). Anode: Me → Me^z+ + z e^-. Kathode: O2 + 2e^- + H2O → 2OH^-."
+    },
+    {
+        "question": "Weshalb ist die unter Standardbedingungen aufgestellte Spannungsreihe in der Praxis oft nicht zutreffend?",
+        "correctAnswer": "Große Temperatur- und Druckschwankungen in der Realität, abhängig vom Elektrolyt, Korrosionsverhalten auch abhängig von Passivität."
+    },
+    {
+        "question": "Weshalb korrodiert Kupfer nicht unter Wasserstoffentwicklung?",
+        "correctAnswer": "Da die Stromdichtekurve von Kupfer höher liegt (edler) als die von Wasserstoff, kann Kupfer nicht in Lösung gehen."
+    },
+    {
+        "question": "Was versteht man unter einem Korrosionselement? Nennen Sie Beispiele aus der Praxis!",
+        "correctAnswer": "Elektronenleitende Kopplung metallischer Komponenten im Sinne eines kurzgeschlossenen galvanischen Elements (Voraussetzung: Elektrolyt). Beispiele: Korn-Korngrenze, belüftete/nichtbelüftete Bereiche, Kristallgemische, Verbindung von Metallen unterschiedlicher Potentiale (z.B. rostender/nicht rostender Stahl, Fitting aus Messing und verzinktem Trinkwasserstahlrohr), verformte/nicht verformte Bereiche, Temperaturunterschiede, Auslagerung von Korrosionsprodukten."
+    },
+    {
+        "question": "Weshalb korrodiert (rostet) ein Stahl mit mindestens 13 % Cr-Gehalt nicht unter normalen Umweltbedingungen?",
+        "correctAnswer": "Chrom ist ein passivierendes Metall. Ab 13% Cr wird die Passivität auf den Stahl übertragen, es entsteht nicht rostender Stahl."
+    },
+    {
+        "question": "Wodurch wird Lochfraßkorrosion ausgelöst? Wie kann man in der Praxis Lochfraßkorrosion verhindern?",
+        "correctAnswer": "Verdrängung von Sauerstoff aus der Oxidschicht (Passivschicht) durch Chlorid- oder Bromidionen führt zur Zerstörung der schützenden Passivschicht. Gegenmaßnahme: Legieren mit Molybdän (Mo)."
+    },
+    {
+        "question": "Nennen Sie Möglichkeiten für passiven und aktiven Korrosionsschutz!",
+        "correctAnswer": "Passiv: Metallische Überzüge (Schmelztauchverfahren, Galvanische Verfahren, chemische Verfahren, Metallspritzen), anorganische nichtmetallische Beschichtung (Emaillieren, Brünieren), organische Beschichtung (Streichen, Tauchen). Aktiv: Werkstoffabhängig – Variieren der Legierungselemente, Ausscheidung an Korngrenzen vermeiden (richtige Wärmebehandlung), niedrige Oberflächenrauheit, konstruktive Gestaltung (keine Mulden/Spalten), korrosionsgerechte Lagerung. Mediumabhängig – niedriger Sauerstoffgehalt, keine Chloridionen, Zusatz von Inhibitoren (z.B. Carbonate), Zusatz von Stabilisatoren. Systemabhängig – Temperatur absenken, Opferanode, Passivierung."
+    },
+    {
+        "question": "Nennen Sie Gebiete der Werkstoffprüfung! Welche Ziele sollen durch Werkstoffprüfung erreicht werden?",
+        "correctAnswer": "Werkstoffdiagnostik (stoffliche Zusammensetzung, Aufbau, Gefüge), Eigenschaftscharakterisierung (Festigkeitsprüfung, thermische Eigenschaften, Korrosion, Verschleiß), Qualitätsprüfung (Fertigungsprüfung, Werkstofffehler, Werkstoffeigenschaften überprüfen), Zuverlässigkeits-/Schadensanalyse. Ziele: Ermitteln von Verhalten und Werkstoffkenngrößen von normierten Werkstoffproben oder fertigen Bauteilen unter mechanischen, thermischen oder chemischen Beanspruchungen."
+    },
+    {
+        "question": "Welche Werkstoffkenngrößen werden beim Zugversuch ermittelt?",
+        "correctAnswer": "Streckgrenze, Dehngrenze, Zugfestigkeit, Bruchdehnung, Einschnürung, E-Modul, Arbeitsvermögen, Reißfestigkeit, Reißdehnung."
+    },
+    {
+        "question": "Welche Kenngrößen werden für die Bemessung von Bauteilen benutzt?",
+        "correctAnswer": "Zugfestigkeit, Streckgrenze, E-Modul."
+    },
+    {
+        "question": "Welche Aussage liefert die Bruchdehnung eines Werkstoffes für die Praxis?",
+        "correctAnswer": "Materialkennwert, der die prozentuale Verlängerung im Augenblick des Bruches, bezogen auf die Anfangsmesslänge, angibt. Charakterisiert die Verformungsfähigkeit eines Werkstoffes (spröde oder fest, abhängig von der Dehnung); z.B. für Strangpressen relevant."
+    },
+    {
+        "question": "Für welche Werkstoffe ist jeweils die Werkstoffprüfung durch Zugversuch, Druckversuch oder Biegeversuch geeignet?",
+        "correctAnswer": "Zugversuch: Allgemeine Anwendung, Ausnahme: sehr spröde Werkstoffe. Druckversuch: Baustoffe, Holz, Gestein, Gusseisen. Biegeversuch: Kunststoffe, Glas, Keramik, spröde metallische Werkstoffe (z.B. gesinterte Hartmetalle)."
+    },
+    {
+        "question": "Durch welchen Versuch wird die Warmfestigkeit eines Werkstoffes ermittelt? Wie geht man vor, welche Kennwerte und Diagramme werden ermittelt?",
+        "correctAnswer": "Kerbschlagbiegeversuch. Vorgehen: Zerschlagen einer gekerbten Probe, Berechnen der Kerbschlagarbeit durch gemessene Pendelhöhe des Hammers, Bestimmen der Bruchart und Anteile von spröden und zähen Bruchabschnitten. Kenngrößen: Übergangstemperatur, Kerbschlagbiegearbeit. Diagramme: Temperatur-Kerbschlagarbeit-Diagramm."
+    },
+    {
+        "question": "Erklären Sie den Wöhlerversuch! Welche Aussagen lassen sich für die praktische Anwendung der ermittelten Festigkeitswerte ableiten?",
+        "correctAnswer": "6–10 Proben, bis Bruch oder nach bestimmter Zeit. Sinusförmige Beanspruchung des Werkstoffs, bis Riss, Bruch oder Grenzschwingspielzahl erreicht ist, Anlegen von unterschiedlichen Amplitudenspannungen. Diagramm: Nennspannungsamplitude-Grenzschwingspielzahl. Aussagen: Dauerfestigkeit, Zeitfestigkeit, Kurzzeitfestigkeit."
+    },
+    {
+        "question": "Durch welche Prüfung kann das Umformverhalten eines Werkstoffs charakterisiert werden?",
+        "correctAnswer": "Umformverhalten wird ermittelt durch: Tiefungsversuch nach Erichsen, Näpfchenziehversuch, Faltversuche, Stauchversuche."
+    },
+    {
+        "question": "Welche Eigenschaften werden durch den Atomkern bestimmt, welche durch Valenzelektronen?",
+        "correctAnswer": "Atomkern bestimmt die Dichte des Stoffe (Massenkonzentration im Kern)\nValenzelektronen bestimmen chemische Eigenschaften und Reaktionen eines Elements (Atomradius, Metallcharakter, Elektronennegativität, Elektronenaffinität, Ionisierungsenergie)"
+    },
+    {
+        "question": "Wodurch sind Übergangsmetalle gekennzeichnet?",
+        "correctAnswer": "Sie bilden gefärbte Verbindungen, können sehr viele verschiedene Oxidationszustände einnehmen, sind gute Katalysatoren, bilden Komplexe"
+    },
+    {
+        "question": "Nennen Sie die Hauptvalenzbindungen und geben Sie jeweils ein Beispiel an! Wodurch unterscheiden sich die Bindungen?",
+        "correctAnswer": "Ionenbindung (NaCl) – 2 ungleiche Atome reagieren, Aufnahme bzw. Abgabe von Elektronen, ungerichtete Bindung, elektrostatische Anziehung (Colombsche Kräfte), schlechte Leiter (el. + Wärme) – Isolator außer Schmelze, schlecht formbar (Bruch an Spaltfläche), Lichtdurchlässig, Elektronenfehlordnung, ∆EN>1,7\nKovalente Bindung (Atombindung) (Cl2, Diamant) – Elektronen werden gemeinsam genutzt, gerichtete Bindung, Isolator oder Halbleiter, Makromolekühle (Kettenmolekühle) in Polymeren, erreichen Edelgaskonfiguration, ∆EN<1,7\nMetallische Bindung (Al, Cu) – gemeinsam genutzte Valenzelektronen, ungerichtete Bindung, gute el. und wärmeleitfähig, freie e-, dichte Anordnung im Raumgitter, plastisch verformbar, umgeben von Elektronengas -> Edelgas"
+    },
+    {
+        "question": "Bei welchen Werkstoffen treten Nebenvalenzbindungen auf?",
+        "correctAnswer": "Bindung zwischen Polymerketten (CO2, CCl4), schwache Bindung, Van-der-Waals-Bindung, Isolator; Polymerwerkstoffe, Keramische Werkstoffe"
+    },
+    {
+        "question": "Welche typischen Eigenschaften haben Metalle, Keramiken, Polymere?",
+        "correctAnswer": "Metalle: umformbar, spanbar, gießbar, elektrisch leitend, härtbar\nPolymere: fest, leicht verarbeitbar zu dünnen Folien, el.-isolierend, feuchtigkeitsabweisend und –resistent\nKeramiken: hart, (durchsichtig), hoher Schmelzp., therm. Isolierend, relativ inert gegenüber Metallschmelzen"
+    },
+    {
+        "question": "Wie kann man den amorphen Zustand beschreiben?",
+        "correctAnswer": "Eingefrorene Schmelze, keine zeitl. Veränderung, nur Nahordnungsbereiche, energiehaltiger als krist. Zustand"
+    },
+    {
+        "question": "Unter welchen Bedingungen entstehen metallische Gläser?",
+        "correctAnswer": "Durch schnelles Abschrecken einer Schmelze oder eines Gases, Aufbau ähnlich wie amorph (Keimbildung↓)"
+    },
+    {
+        "question": "Weshalb nimmt das Volumen fester Stoffe mit steigender Temperatur zu?",
+        "correctAnswer": "Atom schwingen stärker, brauchen mehr Platz -> Ausdehnung"
+    },
+    {
+        "question": "Wodurch unterscheiden sich die Strukturen von Metallen, Flüssigkeiten und Gläsern?",
+        "correctAnswer": "Metalle: geordnete Kristallstruktur, Atome haben feste Gitterplätze, kristallin\nFlüssigkeiten: regellose Verteilung der Bestandteile, kurzzeitige Bindungen, wechseln ständig Plätze\nGläser: sind verhinderte Kristalle, nur Nahordnungsbereiche - teilw. regellose Struktur (amorph)"
+    },
+    {
+        "question": "Was ist eine Elementarzelle?",
+        "correctAnswer": "Kleinstes Einheit eines Raumgitters, Struktur/ Anordnung der Atome"
+    },
+    {
+        "question": "Zeichnen Sie die 3 typischen Kristallgitter, in denen die meisten Metalle kristallisieren und geben Sie jeweils 3 Vertreter an!",
+        "correctAnswer": "Kubisch-flächen-zentriert (γ Fe [910 bis 1390 °C], Ag, Au, Al) – 8 x 1/8 + 1 Atome/EZ\nKubisch-raum-zentriert (α Fe [bis 910°C], W, Mo) – 8 x 1/8 + 6 x ½ Atome/EZ\nHexagonal-dichteste Packung (Co, Mg, Zn) – 6 Atome/EZ"
+    },
+    {
+        "question": "Welche Kristallgitter sind dichtest gepackt?",
+        "correctAnswer": "Kfz und hdP -> 0,74, krz nur 0,68"
+    },
+    {
+        "question": "Was ist Polymorphie? Geben Sie ein Beispiel für die technische Nutzung an!",
+        "correctAnswer": "Gitterumwandlung im festen Zustand -> Änderung von Werkstoffeigenschaften\nBeispiel: Härten von WS, Abschrecken -> Spannungen im Gitter (Diffusion für Gitterumwandlung wird verhindert)"
+    },
+    {
+        "question": "Zeichnen Sie in einem kubischen Gitter die (111)-Ebene ein! Was bedeutet [100] (in kubisches Gitter eintragen)?",
+        "correctAnswer": "[100] steht für die Richtung"
+    },
+    {
+        "question": "Welche metallischen Legierungsstrukturen gibt es?",
+        "correctAnswer": "Einlagerungsmischkristall, Austauschmischkristall, Überstruktur (verhinderte Odnung)"
+    },
+    {
+        "question": "Nennen und skizzieren Sie 0-, 1-, 2-dimensionale Gitterbaufehler!",
+        "correctAnswer": "0: Punktfömig – z.B. Leerstellen, Zwischengitteratome, unterschiedl. große Atome – nehmen bei Erwärmung zu\n1: linienförmig – durch Umformung, Kristallisation\n2: polykristallines Gefüge – Großwinkel-, Kleinwinkel-, Zwillingskorngrenzen, Stapelfehler – Phasengrenzen (kohärent, teilweise kohärent, inkohärent)"
+    },
+    {
+        "question": "Wodurch werden die Strukturen polymerer Werkstoffe gekennzeichnet?",
+        "correctAnswer": "Struktur polymerer Werkstoffe ist gekennzeichnet durch:\nKonstitution: hemisches Aufbauprinzip, Typen und Anordnung von Kettenatomen, symmetrische Grundbausteine (PA, PE), unsymmetrische regelmäßige Grundbausteine (Kopf-Schwanz-Anlagerung), fadenförmige oder verzweigte Makromoleküle\nKonfiguration: räumliche Anordnung von Atomgruppen (ataktisch - unregelmäßig, syndiotaktisch - regelmäßig alternierend, isotaktisch - einseitig)\nKonformation: räumliche Anordnung bzw. Zuordnung an bzw. in der Kette"
+    },
+    {
+        "question": "Was versteht man unter einem Gefüge?",
+        "correctAnswer": "Bestandteil des Werkstoffes, mikroskopische Anordnung d. verschied. Zusammengewachsenen Gefügebestandteile (Kristallite, Poren, amorphe Bereiche)"
+    },
+    {
+        "question": "Was sind Körner oder Kristallite?",
+        "correctAnswer": "Körner sind Gefügebestandteile, die aus der gleichen Zusammensetzung bestehen (Phase)"
+    },
+    {
+        "question": "Wie geht man bei der metallographischen Untersuchung vor? Nennen Sie die wesentlichen Arbeitsschritte bis zur Entwicklung des Gefüges!",
+        "correctAnswer": "Gezielte Probenentnahme (gezielt oder systematisch, Umformung beachten) – Trennen (Ohne Verformung und thermischen Einfluss), Probengröße – Einbetten (warm und kalt) z.B. in Harz – Einklammern in Matellklammern – Schleifen (SiC-Papier, nass, grob -> fein) und Polieren (Tücher [Vlies], Tonerde od. Diamantsuspension als Poliermittel) – Ätzen (Gefügeentwicklung – KG-Ätzen od. KF-Ätzen)"
+    },
+    {
+        "question": "Welche Aussagen lassen sich aus dem Gefüge ableiten?",
+        "correctAnswer": "Geschichte des Gefüges (Bearbeitung d. Gefüges)\nBewertung: qualitativ (Form, Größe, Richtung!, Ausscheidungen, Mengen d. Gefügebestandteile, Verteilung, Wärmebehandlungszustand); quantitativ (Zahlenmäßige Aussage über Gefügeparam., Korngrößen)\nEigenschaften sind ableitbar (chem. Zusammensetzung, Behandlungszustand)"
+    },
+    {
+        "question": "In welchem Gleichgewichtszustand werden Werkstoffe verwendet?",
+        "correctAnswer": "Werkstoffe werden sowohl im Gleichgewichts- als auch im Ungleichgewichtszustand verwendet"
+    },
+    {
+        "question": "Wodurch wird in der Technik im Wesentlichen ein Ungleichgewichtszustand herbeigeführt? Nennen Sie Beispiele für Ungleichgewichtszustände in der Praxis!",
+        "correctAnswer": "Durch Härten wird Ungleichgewichtszustand im Werkstoff eingestellt (Unterdrückte Diffus. Beim Abkühlen)"
+    },
+    {
+        "question": "Was verstehen Sie unter den Begriffen: Werkstoff, Phase, Komponente, System?",
+        "correctAnswer": "Werkstoff: stoffliches System\nPhase: Bestandteile, aus denen das Syst. aufgebaut ist -> bzgl. chem. Zusammensetzung, Struktur, phys. Eigenschaften\nKomponente: Stoffe, aus denen Phase aufgebaut ist (Atome, Molekühle)\nSystem: Kombination und Menge von Phasen und Komponenten (z.B. Mehrstoffsystem = Legierung, 1 Komponente = Einstoffsystem, 1 Phase + mehrere Komponenten = MK)"
+    },
+    {
+        "question": "Was ist ein Mischkristall? Was ist ein Kristallgemisch?",
+        "correctAnswer": "Ein Mischkristall ist eine Zusammensetzung aus mind. zwei verschied. chem. Elementen (durch Einlagerung od. Substitution), ein Kristallgemisch ist ein Gemisch aus mind. zwei Kristalltypen. (z.B. bei teilweißer od. nicht Mischbarkeit im festen Zustand)"
+    },
+    {
+        "question": "Welchen Verlauf hat das Temperatur-Zeit-Diagramm beim Abkühlen eines reinen geschmolzenen Metalls bis auf Raumtemperatur? Wie heißt die Unstetigkeitsstelle im Abkühlungsverlauf und weshalb tritt sie auf?",
+        "correctAnswer": "Die Kurve verläuft exponential bis zur Raumtemperatur, die Unstetigkeitsstelle ist eine horizontal auch Haltepunkt genannt. Grund: Wärme wird beim Erstarren freigesetzt und Schmelze kühlt nicht weiter ab (Latente Wärme)"
+    },
+    {
+        "question": "Weshalb treten im Abkühlungsverlauf einer Legierung zwei Knickpunkte auf?",
+        "correctAnswer": "Knickpunkte zeigen Anfang und Ende d. Umwandlung an (Anfang und Ende beim Erstarren von Komponenten)"
+    },
+    {
+        "question": "Unter welchen Bedingungen entstehen feinkörnige Gefüge beim Erstarren einer Schmelze?",
+        "correctAnswer": "Dann, wenn ideale Unterkühlung der Schmelze erzielt wird und Keimbildung sehr hoch ist"
+    },
+    {
+        "question": "Skizzieren Sie die Zustandsdiagramme für Systeme mit völliger Mischbarkeit, Nichtmischbarkeit und teilweiser Mischbarkeit der Komponenten im festen Zustand!",
+        "correctAnswer": "(Skizze erforderlich, textliche Antwort nicht möglich)"
+    },
+    {
+        "question": "Was ist ein Eutektikum?",
+        "correctAnswer": "Eutektikum ist die Stelle wo beide Komponenten sofort erstarren -> S ↔ A + B bzw. S ↔ α + β"
+    },
+    {
+        "question": "Zeichnen Sie in ein eutektisches Zustandsdiagramm eine Legierungszusammensetzung ein und erläutern Sie unter Anwendung der Hebelbeziehungen den Abkühlungsverlauf von der Schmelze bis zur Raumtemperatur! Welche Zusammensetzung hat die Schmelze bei Erreichen der eutektischen Temperatur (im Diagramm eintragen!)?",
+        "correctAnswer": "Anwendung der Hebelbeziehung: Es wird die Legierung L (90 % Cu und 10 % Pb) betrachtet. Kühlt man diese Legierung ab, scheiden sich bei 1046 °C reine Kupferkristalle (Punkt b1) aus. Die Schmelze S1 verarmt an Kupfer bzw. reichert sich mit Blei an. Je weiter die Temperatur abnimmt, umso mehr Blei verbleibt in der Schmelze. Bei 1020 °C beispielsweise beträgt der Bleigehalt der Restschmelze bereits 18 % (Punkt b2). Die Menge an ausgeschiedenen Kupferkristallen ergibt sich nach der Bebelbeziehung: a = c2 -a2 = 10 - 0 und b = b2 - c2 = 18 - 10 = 8 zu mCu = b/(a + b) x 100 % = 8/ (10 + 8) x 100 % = 44,5 % Kupfer und die Menge an Restschmelze S1 zu ms1 = a/(a + b) x 100 % = 10/(10 + 8) x 100 % = 55,5 % S1 oder natürlich S1 = 100 % - 44,5 % Cu = 55,5 %"
+    },
+    {
+        "question": "Wie lautet die eutektische Reaktion und welche Bedingungen müssen erfüllt sein?",
+        "correctAnswer": "S ↔ A + B bzw. S ↔ α + β, bei konstanten Druck und konstanter Temperatur"
+    },
+    {
+        "question": "Erklären Sie die Abkühlung an Hand der Hebelbeziehung im Zustandsdiagramm mit völliger Mischbarkeit der Komponenten im flüssigen und festen Zustand!",
+        "correctAnswer": "Die Schemlze wird abgekühlt, bei T1 scheidet sich ein Mischkristall mit der Zusammensetzung MK1 aus. Die Schmelze verarmt somit an B-Atomen, bei weiteren Abkühlen, nimmt der A-Gehalt im ausgeschiedenen Mischkristall zu. Bei der Temperatur T3 entsteht schließlich die Legierungszusammensetzung."
+    },
+    {
+        "question": "Was sind Zonenkristalle und wodurch entstehen sie?",
+        "correctAnswer": "Zonenkristalle entstehen wenn keine Gleichgewichtsabkühlung stattfindet, es werden unterschiedliche Kristalle beim Abkühlen erzeugt"
+    },
+    {
+        "question": "Wie sind Normalspannung und Schubspannung definiert?",
+        "correctAnswer": "Die Normalspannung ist die Spannung, die senkrecht zur Querschnittsfläche wirkt. Die Schubspannung ist die Spannung, die tangential zur Querschnittsfläche wirkt."
+    },
+    {
+        "question": "In welchem Dehnungsbereich gilt das Hooke’sche Gesetz, wie lautet es?",
+        "correctAnswer": "Im Bereich der elastischen Dehnung: σ = E * e"
+    },
+    {
+        "question": "Was versteht man unter dem E-Modul?",
+        "correctAnswer": "Beschreibt den Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers bei linear elastischem Verhalten, Proportionalitätsfaktor / E↑=Festigkeit↑"
+    },
+    {
+        "question": "Beschreiben Sie die Vorgänge bei elastischer Verformung eines kristallinen Werkstoffs!",
+        "correctAnswer": "Bei Krafteinwirkung werden die Abstände der Atome gegeneinander verändert, Vorgang ist reversibel. Anelastisch: Hysterese -> Energieverlust bei Be- und Entlastung."
+    },
+    {
+        "question": "Was sind Gleitebenen, Gleitrichtungen, Gleitsysteme?",
+        "correctAnswer": "Ebenen: Ebenen zwischen Atomlagen mit dichtester Packung und großem Schichtabstand. Richtungen: Richtung dichtester Atompackung und somit die Richtung, in die das Gleiten der Atomschichten mit relativ kleinstem Energieaufwand möglich ist. Gleitsystem: Begriff aus der Kristallmechanik, beschreibt mittels Gleitebene und Gleitrichtung die Verformung von Metallen."
+    },
+    {
+        "question": "Welche Gleitrichtungen und Gleitebenen gibt es im kfz-Gitter?",
+        "correctAnswer": "4 Gleitebenen / 3 Richtungen -> 24 Gleitsysteme. Richtung: [110, 1-10, 011, 101, 011, 1-11] Ebene: [111]. (HdP: 2 Ebenen, 3 Richtungen -> 6 Gleitsysteme)"
+    },
+    {
+        "question": "Welche Bedeutung haben Versetzungen für die plastische Verformung?",
+        "correctAnswer": "Bewegung von Versetzungen => Plastische Verformung, erleichtern die Verformung (1000 mal kleiner als theoretisch), Grund dafür sind Gitterbaufehler."
+    },
+    {
+        "question": "Beschreiben Sie die Vorgänge bei plastischer Verformung eines kristallinen Werkstoffs!",
+        "correctAnswer": "Wirkung von Schubspannung, Überwinden der Peierls-Spannung, Bewegung der Versetzung auf Gleitebenen 45° zur Kraftangriffsrichtung. Versetzung bewegt sich bis Hindernis (Korn-, Phasengrenzen -> Spannungsfeld, Bildung neuer Versetzungen, alle Kristalle werden mit einbezogen, Aufstau von Versetzungen -> Verformbarkeit wird schlechter (WS verfestigt) -> Ausbildung von Rissen)."
+    },
+    {
+        "question": "Welche Möglichkeiten gibt es, die Festigkeit metallischer Werkstoffe zu erhöhen (Härtungsmechanismen)?",
+        "correctAnswer": "Mischkristallhärtung (Leg.-Atome verzerren Gitter -> Erschweren Versetzungsbew., Zähigkeit↓, begrenzt durch Löslichkeit der LE); Versetzungshärtung (Erzeugung hoher Versetzungsdichte, gegenseitige Behinderung -> Verfestigung); Teilchenhärtung (Einlagern kleiner Teilchen, Teilchengröße begrenzt); Korngrenzenhärtung (Kornfeinung -> Festigkeit + Zähigkeit ↑, kurze Laufwege von Versetzungen); meist Kombination aus allen."
+    },
+    {
+        "question": "Wie ändert sich durch Anwendung der Mechanismen die Zähigkeit des Werkstoffs?",
+        "correctAnswer": "Mischkristallhärtung: Zähigkeit nimmt ab, Festigkeit zu. Versetzungshärtung: Verfestigung und Versprödung, Zähigkeit nimmt ab. Teilchenhärtung: Zähigkeit nimmt ab, Festigkeit zu. Korngrenzenhärtung: erhöht Zähigkeit und Festigkeit."
+    },
+    {
+        "question": "Welche Phasen treten im Fe-Fe3C-Diagramm auf?",
+        "correctAnswer": "α-MK (Ferrit), γ-MK (Austenit), δ-MK (δ-Ferrit), Fe3C, sowie die Gemische aus den Phasen."
+    },
+    {
+        "question": "Wie lauten die Gefügenamen für diese Phasen?",
+        "correctAnswer": "Ferrit (α), Austenit (γ), Zementit (Fe3C), Perlit (α + Fe3C), Ledeburit 1 (γ + Fe3C), Ledeburit 2 (γ + Fe3C + Fe3C)."
+    },
+    {
+        "question": "Erläutern Sie an Hand der Hebelbeziehungen die langsame Abkühlung eines Stahles mit 0,5 % C aus dem γ-Gebiet bis auf Raumtemperatur! Wie ändert sich der C-Gehalt im γ-Mischkristall? Unter welchen Bedingungen kommt es zur Perlitbildung? Welches Gefüge entsteht?",
+        "correctAnswer": "Bei ca. 1490°C beginnt die Ausscheidung von Austenit aus der Schmelze. Bei etwa 1450°C ist dieser Prozess abgeschlossen. Die Schmelze wurde komplett in Austenit umgewandelt. Bei etwa 750°C fängt der Austenit an, sich in Ferrit umzuwandeln. Der Prozess ist bei 723°C abgeschlossen. Da Ferrit unter 723°C maximal 0,02 % Kohlenstoff lösen kann, reichert sich der Kohlenstoff gemäß der Linie G-O-S dem Austenit an (C-Gehalt im γ-MK nimmt zu). Bei 723°C besitzt der Austenit einen Kohlenstoffgehalt von 0,8% und wandelt sich in Perlit um. Es liegt nun ein Gefüge aus Ferrit und Perlit vor. Hebelbeziehung: (a+b)/100=a/ma=b/mb."
+    },
+    {
+        "question": "Was ist Martensit?",
+        "correctAnswer": "Martensit ist ein metastabiles Gefüge, das beim diffusionslosen Abkühlen eines Ausgangsgefüges entsteht."
+    },
+    {
+        "question": "Wodurch ist die Martensitbildung gekennzeichnet? Unter welchen Bedingungen entsteht Martensit (Vorgänge in der Martensitstufe)?",
+        "correctAnswer": "Martensit ist das diffusionslose Umklappen des kfz des Austenits in einen tetragonal raumzentrierten α-Mischkristall. Da der α-MK wesentlich weniger C lösen kann, wird der überschüssige C zwangsgelöst (Mischkristallhärtung). Weiterhin bilden sich Martensitnadeln und -platten (Feinkörnung) und eine große Anzahl an Gitterbaufehlern (Versetzungshärtung). Voraussetzung für die Bildung ist eine schnelle Abkühlung. Ab der Abkühlgeschwindigkeit vu beginnt die Martensitbildung, ab vo bildet sich ausschließlich Martensit."
+    },
+    {
+        "question": "Was versteht man unter der kritischen Abkühlgeschwindigkeit?",
+        "correctAnswer": "Spaltet sich in untere und obere auf. Zwischen beiden können auch Perlit, Bainit und Martensit nebeneinander liegen. Die kritische Abkühlgeschwindigkeit beschreibt, ab wann sich zum ersten Mal Martensit bildet."
+    },
+    {
+        "question": "Was versteht man unter Ms- und Mf-Temperatur; A1- und A3-Temperatur?",
+        "correctAnswer": "Ms: Starttemperatur der Martensitbildung, Mf: Martensitbildung beendet. A1 und A3 sind Umwandlungspunkte des Gefüges (bei schnellerem Abkühlen fallen sie zusammen). A1: Ferritbildung, A3: Umwandlung kfz zu krz."
+    },
+    {
+        "question": "Nennen Sie die Härtungsmechanismen, die bei der Martensithärtung wirksam sind!",
+        "correctAnswer": "Feinkornhärten (Martensitnadeln), Versetzungshärten (Gitterbaufehler), Mischkristallhärtung (Zwangslösen von C in α)."
+    },
+    {
+        "question": "Wovon ist die Härte des Martensits hauptsächlich abhängig?",
+        "correctAnswer": "Abhängig vom Kohlenstoffgehalt im Gefüge (maximal bei ca. 0,75% C, darüber bleibt Restaustenit im Gefüge, der sich schlecht auf die Härte auswirkt)."
+    },
+    {
+        "question": "Weshalb kann die Umwandlung in der Perlitstufe nur bei Temperaturen oberhalb von ca. 450 °C erfolgen?",
+        "correctAnswer": "Da bis zu dieser Temperatur maximal eine Diffusion von Fe, C und Legierungselementen stattfinden kann – Keimbildung und -wachstum."
+    },
+    {
+        "question": "Bis zu welchen Temperaturen müssen unlegierte Stähle für das Härten erwärmt werden (Härtetemperatur)? Was ist bei übereutektoidischen Stählen zu beachten?",
+        "correctAnswer": "Unlegierte Stähle: 30 bis 50K über A3, bei übereutektoiden Stählen nur 30 bis 50K über A1, da bei höheren Temperaturen zu viel C gelöst wird – Abnahme der Härte."
+    },
+    {
+        "question": "Welche Arten von ZTU-Diagrammen gibt es? Wie sind diese zu lesen?",
+        "correctAnswer": "Kontinuierliches ZTU: ist nur entlang der eingetragenen Linien zu lesen (Abschätzen dazwischen nicht zulässig). Isothermisches ZTU: es wird bis zu einer Temperatur abgekühlt, bei dieser Temperatur wird das Diagramm gelesen und zwar von links nach rechts auf einer horizontalen."
+    },
+    {
+        "question": "Was kann man aus ZTU-Diagrammen entnehmen? Unter welchen Bedingungen gelten sie?",
+        "correctAnswer": "Es sind die Umwandlungen des Gefüges abzulesen, die zu erreichende Härte, Anfang und Ende der Umwandlung. Sie gelten jeweils nur für die angegebene chemische Zusammensetzung der Legierung und Austenitisierungsbedingung."
+    },
+    {
+        "question": "Wie wird die Härtbarkeit eines Stahles festgestellt?",
+        "correctAnswer": "Die Härtbarkeit lässt sich über den Stirnabschreckversuch ermitteln."
+    },
+    {
+        "question": "Was versteht man unter Aufhärtung und Einhärtung?",
+        "correctAnswer": "Aufhärten: maximal mögliche Härte an der Oberfläche, die die Legierung erreichen kann, abhängig von der gelösten C-Menge im Austenit. Einhärtbarkeit: Härte in einer bestimmten Tiefe – Verhalten der Härte mit zunehmender Werkstofftiefe."
+    },
+    {
+        "question": "Wodurch werden die Aufhärtung und die Einhärtung beeinflusst?",
+        "correctAnswer": "Aufhärtung: abhängig von der gelösten C-Menge im Austenit. Einhärtung: abhängig von den gelösten Legierungselementen im Austenit, wie z.B. Mn, Cr, V, Mo, Ni."
+    },
+    {
+        "question": "Wie tief härten unlegierte Stähle etwa ein?",
+        "correctAnswer": "Unlegierte Stähle haben nur eine sehr geringe Einhärtbarkeit, bereits nach geringem Abstand zur Oberfläche sinkt die Härte stark."
+    },
+    {
+        "question": "Weshalb müssen Stähle nach dem Abschrecken von Härtetemperatur möglichst sofort angelassen werden?",
+        "correctAnswer": "Um möglichst die Gefahr der Härterissbildung zu umgehen, außerdem wird durch das Anlassen eine größere Zähigkeit des Werkstoffs eingestellt, ohne dass sich die Härte großartig verändert."
+    },
+    {
+        "question": "Welche Vorgänge laufen beim Anlassen in der 1. bis 3. Anlassstufe ab und wie ändern sich die Eigenschaften des Stahls?",
+        "correctAnswer": "1. Stufe (ab 100°C): Ausscheidung von ε-Carbiden (Fe2C), Umwandlung des tetragonalen Martensit in kubischen Martensit – keine wesentliche Härteabnahme. 2. Stufe (ab 200/280°C): Zerfall des Restaustenits – nach Mechanismen der Zwischenstufe (Bainit, ...). 3. Stufe (ab 300/350°C): Umwandlung von Fe2C in Fe3C, Zementitteilchen wachsen, Temperatur steigt – Härte sinkt. Irreversible Anlasssprödigkeit bei 300°C durch Restaustenitzerfall."
+    },
+    {
+        "question": "Nennen Sie für folgende Glühverfahren jeweils: Ziel, Durchführung, Veränderungen im Gefüge und Anwendungsbeispiel: Normalglühen, Weichglühen (Glühen auf kugelige Carbide), Rekristallisationsglühen, Spannungsarmglühen!",
+        "correctAnswer": "Normalglühen: Ziel: Beseitigen des Gefügeungleichgewichts und feinkörniges äquiaxiales Gefüge (gute Kombination aus Härte und Zähigkeit); Durchführung: untereutektoide Stähle: 30-50K über A3, übereutekt. Stähle: knapp oberhalb von A1, schnelles Aufheizen, kurzes Halten, schnelles Abkühlen; Veränderung: feines Gefüge; Anwendung: nach Gießen, Härten, Schmieden. Weichglühen: Ziel: einfachere und wirtschaftlichere Zerspan- und Umformbarkeit; Durchführung: untereutekt. Stähle: dicht unterhalb von Ac1, übereutekt. Stähle: pendelnd um Ac1 oder oberhalb Ac1; Veränderung: Gleichgewichtsgefüge aus ferritischer Matrix mit eingelagerten Carbidkörnchen (Festigkeit↓). Rekristallisationsglühen: Ziel: Rückgängigmachen der Kaltverfestigung, Duktilität wiederherstellen; Durchführung: unterhalb von A1, abhängig von Verformungsgrad und gewünschter Korngröße; Anwendung: nach Kaltwalzen. Spannungsarmglühen: Ziel: Eigenspannungen entfernen; Durchführung: Temperatur über höchster Gebrauchstemperatur, aber max. dicht unterhalb A1; Anwendung: nach Schweißen, Härten, Fräsen, Drehen."
+    },
+    {
+        "question": "Wie wird das Vergüten durchgeführt? Welche Eigenschaften sollen eingestellt werden?",
+        "correctAnswer": "Härten und nachfolgendes Anlassen auf eine Temperatur zwischen 450 und 680°C (3. Anlassstufe); Ziel: Hohe Festigkeit und zugleich hohe Zähigkeit über den gesamten Querschnitt des Werkstoffs."
+    },
+    {
+        "question": "Was ist zu beachten, wenn eine Welle mit Durchmesser > 20 mm durchvergütet werden soll und dabei eine hohe Festigkeit erreicht werden muss?",
+        "correctAnswer": "Es muss ein tief einhärtender Stahl (legierte Stähle) benutzt werden, die Anlasstemperatur sollte niedrig gewählt werden, da sonst die Festigkeit verloren geht."
+    },
+    {
+        "question": "Was ist Ausscheidungshärten? Welche Legierungen können ausgehärtet werden (allgemeine Voraussetzung angeben!)?",
+        "correctAnswer": "Ziel: Erhöhen der Härte und Festigkeit der Legierung. Voraussetzung: Die Legierung muss bei erhöhter Temperatur Mischkristalle bilden und die Löslichkeit der Elemente muss bei sinkender Temperatur abnehmen."
+    },
+    {
+        "question": "Erläutern Sie die einzelnen Schritte beim Aushärten!",
+        "correctAnswer": "1. Lösungsglühen: homogener Mischkristall, Temperatur dicht unterhalb der eutektischen Temperatur (zu niedrig: zu wenig Legierungselemente in Lösung, zu hoch: Anschmelzen). 2. Abschrecken: übersättigter Mischkristall (Mischkristallhärtung), Abschrecken in Wasser oder Wassernebel; noch keine Härteerhöhung vorhanden – Auslagern. 3. Auslagern: Kaltauslagern bei Raumtemperatur (z.B. t = 96h bei AlCuMg-Leg.), Warmauslagern bei erhöhter Temperatur (Dauer und Temperatur abhängig von Legierung); es bilden sich Zwischenzustände (metastabile Phasen), Ausscheidungen aus dem Mischkristall, dadurch steigen Rm, Rp0,2, Härte, aber Dehnung sinkt."
+    },
+    {
+        "question": "Welche Fehler sind zu vermeiden?",
+        "correctAnswer": "Zu lange Auslagerzeit oder zu hohe Auslagertemperatur führen wieder zur Abnahme von Rm, Rp0,2, Härte."
+    },
+    {
+        "question": "Was bedeuteten die Bezeichnungen: T3 und T6?",
+        "correctAnswer": "T3: kaltausgelagert; T6: warmausgelagert auf höchste Festigkeit."
+    },
+    {
+        "question": "Erklären Sie die Vorgänge, die zu einer ausgeprägten Streckgrenze führen!",
+        "correctAnswer": "Versetzungsfreie Kristalle, Erschwerung der Versetzungsbewegung durch 0-, 1-, 2-, 3-dimensionale Gitterbaufehler. Leichtes Kaltwalzen kann ebenfalls zu einer ausgeprägten Streckgrenze führen."
+    },
+    {
+        "question": "Was versteht man unter zäher bzw. spröder Bruch?",
+        "correctAnswer": "Zähbruch: Energieaufnahme. Sprödbruch: Energieabgabe, Streckgrenze wird nicht erreicht, keine plastische Dehnung."
+    },
+    {
+        "question": "Wodurch werden Brüche hervorgerufen?",
+        "correctAnswer": "Ermüdung, Überbeanspruchung (Beanspruchungsgeschwindigkeit), Überhitzung (Kriechbruch), Unterkühlung (Temperatur sinkt -> spröde), plastische Verformung."
+    },
+    {
+        "question": "Wodurch wird sprödes Verhalten eines Werkstoffs bzw. Bauteils hervorgerufen?",
+        "correctAnswer": "Hohe Beanspruchungsgeschwindigkeit, tiefe Temperatur, mehrachsiger Spannungszustand, grobes Korn, Kerben, Lunker, Alterung, Kaltverformung, Korrosion."
+    },
+    {
+        "question": "Wie wirkt eine erhöhte Beanspruchungsgeschwindigkeit auf die Festigkeit und die Zähigkeit eines Werkstoffs und welche Wirkung haben spröde eingelagerte Phasen und feinkörniges Gefüge?",
+        "correctAnswer": "Hohe Geschwindigkeit: Festigkeit nimmt zu, Zähigkeit ab. Feines Gefüge: Zähigkeit nimmt zu, Festigkeit zu. Eingelagerte spröde Phase: Zähigkeit sinkt, Festigkeit steigt."
+    },
+    {
+        "question": "Wie ist der Begriff Stahl definiert?",
+        "correctAnswer": "Stahl ist eine Eisen-Kohlenstofflegierung bis 2%, größter Masseanteil ist Fe, in Ausnahmefällen kann C-Gehalt größer 2% sein, Legierungselemente sind möglich."
+    },
+    {
+        "question": "Welche Wirkung hat Kohlenstoff im Stahl?",
+        "correctAnswer": "Erhöht die Festigkeit im geglühten Zustand; ist entscheidend für die Steigerung der Härte und Festigkeit beim Härten; erschwert die Umformung; verschlechtert die Schweißeignung."
+    },
+    {
+        "question": "Weshalb werden bestimmten Stählen Legierungselemente zugegeben und wie beeinflussen sie die Stahleigenschaften? Beispiele angeben!",
+        "correctAnswer": "Legierungselemente stellen bestimmte Gebraucheigenschaften sicher (z.B. Korrosionsbeständigkeit); beeinflussen die Härtbarkeit des Stahls; erhöhen die Festigkeit über Mischkristallhärtung; erhöhen Festigkeit über Ausscheidungshärtung; verändern Verarbeitungseigenschaften der Stähle. Beispiele: Mo, Ni, Cr; Mischkristallhärtung (Mn, Si); Ausscheidungshärten (Ti, V, Nb)."
+    },
+    {
+        "question": "Nennen Sie die Gefügebestandteile von geglühtem unlegierten Stahl bei Raumtemperatur, wenn der Kohlenstoffgehalt stetig ansteigt!",
+        "correctAnswer": "0% C: α-MK – Ferrit; bei steigendem C-Anteil: α-MK + Fe3C = Ferrit + Zementit = Perlit; bei 0,8% C: eutektoidische Zusammensetzung – Perlit (Ferrit + Zementit); darüber: übereutektoid – Perlit + Sekundärzementit + Ledeburit, darunter: untereutektoid."
+    },
+    {
+        "question": "Wie ändern sich mit zunehmendem C-Gehalt Härte, Festigkeit und Zähigkeit von unlegiertem Stahl?",
+        "correctAnswer": "Mit zunehmendem C-Gehalt nimmt die Festigkeit und die Härte zunächst zu, ab einem bestimmten Kohlenstoffgehalt nimmt die Festigkeit jedoch wieder ab (siehe Martensitbildung), die Zähigkeit nimmt mit höherem C-Gehalt ab, der Werkstoff wird spröder."
+    },
+    {
+        "question": "Welche Eigenschaften von Stahl werden durch Begleitelemente wie P und S beeinflusst? Welche Folgen ergeben sich für die Verarbeitung und hinsichtlich eines Werkstoffeinsatzes bei tiefen Temperaturen?",
+        "correctAnswer": "Phosphor: Seigerungen → Zelligkeit, macht den Stahl spröde, Festigkeit steigt, Zerspanbarkeit wird besser bei weichen Stählen, Korrosionsbeständigkeit nimmt zu, Sprödbruch → Übergangstemperatur zu höherer Temperatur. Schwefel: bildet Seigerungen, Schmelztemperatur nimmt ab, Sprödigkeit nimmt zu, bessere Spanbarkeit, Sprödbruchverhalten bei tiefen Temperaturen."
+    },
+    {
+        "question": "Nennen Sie Möglichkeiten zur Erhöhung der Festigkeit von Stahl! Welche festigkeitssteigernden Mechanismen kommen zur Anwendung? Nennen Sie jeweils ein Beispiel für die praktische Umsetzung!",
+        "correctAnswer": "Mischkristallhärtung (Legieren mit Mn, Si), Feinkornhärtung (mit Al legieren, AlN – Ausscheidungen), Versetzungshärten, Ausscheidungshärten, Umwandlungshärten, C-Gehalt erhöhen (Aufkohlen), Wärmebehandlung (Vergüten, Härten, ...), Umformen."
+    },
+    {
+        "question": "Wodurch sind die Allgemeinen Baustähle gekennzeichnet? Wonach erfolgt die Stahlauswahl für eine bestimmte Anwendung? Geben Sie die Bedeutung der Gütegruppen an (was unterscheidet die einzelnen Gütegruppen?)!",
+        "correctAnswer": "Nicht für Wärmebehandlung beim Verbraucher geeignet (außer Spannungsarmglühen); hauptsächlich warmgeformt eingesetzt; immer unlegiert + Begleitelemente: Mn, Si, Al; gekennzeichnet durch Streckgrenze bei Raumtemperatur für kleinste Abmessungen sowie Gütegruppen, Kerbschlagarbeitswerte bei bestimmten Temperaturen. Festigkeit abhängig von Bauteilgröße. Auswahl erfolgt durch: Festigkeits- und Verarbeitungseigenschaften, Schweißbarkeit abhängig von Gütegruppe. Gütegruppen: eingeteilt nach gewährleisteter Kerbschlagarbeit bei unterschiedlichen Temperaturen (je höher Gütegruppe desto tiefer die Temperaturen)."
+    },
+    {
+        "question": "Weshalb unterscheidet man in Stähle für den allgemeinen Stahlbau (S) und Stähle für den Maschinenbau (E)?",
+        "correctAnswer": "Maschinenbaustähle (E): nicht schweißbar; allgemeiner Stahlbau (S): schweißbar – für Schweißkonstruktionen."
+    },
+    {
+        "question": "Weshalb kann in der Wärmeeinflusszone beim Schmelzschweißen grobes Korn entstehen? Wie kann durch die Stahlzusammensetzung Grobkorn vermieden werden?",
+        "correctAnswer": "Beim Erwärmen wird eine hohe Temperatur erreicht und relativ lange gehalten – führt zu grobem Korn – grobes Umwandlungsgefüge. Behinderung durch Legieren mit Al (Bildung von Al-Nitriden)."
+    },
+    {
+        "question": "Welche Gefügeänderungen können beim Schmelzschweißen in der WEZ beim schnellen Abkühlen auftreten und welche Folgen können dadurch bei Belastung auftreten?",
+        "correctAnswer": "WEZ: schnelles Abkühlen (Selbstabschrecken) – Martensitbildung (hoher C-Gehalt – spröder Martensit). Kaltrisse, Sprödbruch – es kommt zum schnellen Bruch."
+    },
+    {
+        "question": "Welche Maßnahmen sind beim Schweißen erforderlich, damit es nicht zur Bildung von Kaltrissen kommt (werkstoffseitig, Vor- bzw. Nachbehandlung)?",
+        "correctAnswer": "Gegenmaßnahmen: Begrenzung des C-Gehalts auf 0,22% (relativ zäher Martensit), Vorwärmen (Temperatur: Berechnen des Kohlenstoffäquivalents von Legierungselementen), nachträgliches Glühen."
+    },
+    {
+        "question": "Welche Möglichkeiten der Festigkeitssteigerung werden bei den höherfesten schweißgeeigneten Baustählen in der Praxis umgesetzt (3)?",
+        "correctAnswer": "Mischkristallhärtung (legieren mit Mn, Si); Feinkornhärtung (beruhigen des Stahls mit Al, Bildung von Al-Nitrid – behindern des Kornwachstums bei hohen Temperaturen, Stahl bleibt feinkörnig); Ausscheidungshärten (mit Ti, Nb, V: Bildung feiner Carbide, Nitride und Carbonitride)."
+    },
+    {
+        "question": "Bei der Auslegung von statisch belasteten Bauteilen ist die Berechnungsgrundlage der Werkstoffkennwert Streckgrenze bzw. 0,2-% Dehngrenze. Was müssen Sie beachten, wenn für eine Konstruktion zunächst ein Stahl mit geringer Festigkeit und später im Sinne des Leichtbaus ein Stahl mit höherer Festigkeit verwendet werden soll?",
+        "correctAnswer": "Beul- und Knickverhalten beachten (konstruktive Maßnahmen treffen zur Erhöhung des Widerstandsmomentes), Stähle werden mit zunehmender Festigkeit kerbempfindlicher und haben geringere Zähigkeitsreserven, zunehmender C-Gehalt verschlechtert Schweißeignung (Vorwärmen oder/und Glühen nach Schweißen)."
+    },
+    {
+        "question": "Weshalb nimmt die Kerbempfindlichkeit mit zunehmender Festigkeit zu? Was bedeutet diese Tatsache für die konstruktive Gestaltung von Bauteilen?",
+        "correctAnswer": "Kerbempfindlichkeit steigt mit zunehmender Festigkeit, da geringere Zähigkeitsreserven vorhanden sind, steigt die Sprödbruchgefahr. Konsequenz: konstruktive Kerben, bei hochfesten Materialien besonders vermeiden."
+    },
+    {
+        "question": "Weshalb werden für bestimmte Bauteile Einsatzstähle verwendet?",
+        "correctAnswer": "Für Bauteile, die einer hohen Belastung ausgesetzt sind, z.B. durch Verschleiß (z.B. Zahnräder, Kolbenbolzen, Hebel, Messwerkzeuge); Einsatzstähle: Oberflächenhärte ↑, Verschleißfestigkeit ↑, Kern geringe Festigkeit – bleibt hohe Zähigkeit erhalten."
+    },
+    {
+        "question": "Wie werden diese Stähle wärmebehandelt?",
+        "correctAnswer": "1. Aufkohlen der Werkstücke mit C (Kohlenstoffatmosphäre), 2. Härten, 3. Anlassen bei niedrigen Temperaturen."
+    },
+    {
+        "question": "Weshalb wird das Vergüten von Stahl durchgeführt, welche Eigenschaften sollen erzielt werden? Welche C-Gehalte haben die Vergütungsstähle (ca. von bis)?",
+        "correctAnswer": "Man will Stähle mit hoher Festigkeit und Zähigkeit, da mechanisch stark beansprucht; feines Gefüge. Gefordert: ausreichende Zähigkeit gegen sprödes Versagen. Werden gehärtet und bei hohen Temperaturen angelassen. Von 0,22 bis 0,6% C-Gehalt."
+    },
+    {
+        "question": "Weshalb müssen die Bauteile durchvergütet werden?",
+        "correctAnswer": "Dadurch erhält man gleichmäßige Eigenschaften (Härte, Festigkeit) über den gesamten Querschnitt."
+    },
+    {
+        "question": "Weshalb kann man für größere Querschnitte keine unlegierten Stähle verwenden?",
+        "correctAnswer": "Da unlegierte Stähle eine sehr geringe bis keine Einhärtbarkeit besitzen, nur hohe Aufhärtbarkeit (zu weicherer Kern)."
+    },
+    {
+        "question": "Welche Kriterien sind bei der Stahlauswahl von Vergütungsstählen anzuwenden?",
+        "correctAnswer": "Härte hängt vom C-Gehalt ab (großer Querschnitt -> viel C gewährleisten für Vergüten), Legierungselemente können Zähigkeit verbessern, bei gleichbleibender Festigkeit (Cr, Mo, Ni) -> viel fester als unlegierte Stähle."
+    },
+    {
+        "question": "Durch welche Legierungselemente wird die Korrosionsbeständigkeit von Stahl bedeutend erhöht (mind. 2 angeben)? Worauf beruht diese Beständigkeit?",
+        "correctAnswer": "Mindestens 13% Cr, Ni, Mg, Al; Legierungselemente übertragen ihre Passivität auf den Stahl -> Passivschicht auf dem Stahl."
+    },
+    {
+        "question": "Nennen Sie typische Eigenschaften korrosionsbeständiger ferritischer und austenitischer Stähle!",
+        "correctAnswer": "Ferritischer Stahl: mind. 13% Cr (<0,1% C), krz-Gitter, keine Umwandlung in γ-Phase möglich (umwandlungsfrei), nicht härtbar, Ausscheidungen von Carbiden und intermetallischen Phasen -> Versprödung -> hinzulegieren von Ti, Ni + Wärmebehandlung. Austenitischer Stahl: (V2A – 18% Cr, 8% Ni), keine Gitterumwandlung, nicht härtbar, paramagnetisch, Wärmebehandlung: Lösungsglühen bei 1000°C -> Ausscheidungen sollen in Lösung gehen, Korrosionsbeständigkeit durch Cr, Ni, Mo, Ti, Mn, N, ..."
+    },
+    {
+        "question": "Welches Graue Gusseisen würden Sie für ein auf Zug belastetes Gussstück auswählen? Begründen Sie die Auswahl!",
+        "correctAnswer": "Gusseisen mit Kugelgraphit -> beste Verteilung des Kohlenstoffs, höhere Festigkeit (insbesondere für zyklische Beanspruchung) und höhere Plastizität als Gusseisen mit Lamellengraphit, aber geringeres Dämpfungsvermögen."
+    },
+    {
+        "question": "Weshalb müssen bei Gussstücken aus Gusseisen mit Lamellengraphit die Wandstärken besonders beachtet werden?",
+        "correctAnswer": "Gefügeausbildung hängt von der Wandstärke ab, Festigkeit und Härte sinken mit zunehmender Wanddicke (Bildung grobes Gefüge), Mindestwandstärke beachten."
+    },
+    {
+        "question": "Nennen Sie typische Eigenschaften, die für die Verwendung von Gusseisen maßgebend sind!",
+        "correctAnswer": "Gusseisen mit Lamellengraphit: gute Gieß- und Bearbeitbarkeit, gute Gleit- und Verschleißeigenschaften (z.B. Zahnräder, Bremstrommel), günstige Festigkeitseigenschaften bei hohen Temperaturen (z.B. Kolben, Motorblock), hohe Hitze- und Zunderbeständigkeit, gutes Korrosionsverhalten, gutes Dämpfungsvermögen. Gusseisen mit Kugelgraphit: höhere Festigkeit und Plastizität, aber geringeres Dämpfungsvermögen."
+    },
+    {
+        "question": "Nennen Sie typische Eigenschaften von Aluminiumwerkstoffen! Welche Eigenschaften sind für die Verarbeitung wichtig?",
+        "correctAnswer": "Hohe spezifische Festigkeit einiger Legierungen, sehr gute Korrosionsbeständigkeit (Oxidschicht), hohe Wärme- und elektrische Leitfähigkeit, sehr gute Warmumformbarkeit (z.B. Strangpressen), gut gießbar, umweltverträglich (recycelbar), ausreichend verfügbar, hohe Anzahl von Aluminiumwerkstoffen. Für die Umformbarkeit: relativ weich, geringes E-Modul."
+    },
+    {
+        "question": "Wie wird die Festigkeit bei Al-Werkstoffen eingestellt? Geben Sie die Härtungsmechanismen an und die jeweilige praktische Umsetzung!",
+        "correctAnswer": "Kokillengießen/Druckgießen -> feines Korn -> hohe Festigkeit (Feinkornhärten). Veredelung von Al-Legierungen -> feines Gefüge durch Natrium, Antimon, Strontium (Mischkristallhärtung). Geringe Wanddicke -> schnelles Abkühlen."
+    },
+    {
+        "question": "Weshalb kann die geringere Dichte von Al gegenüber Stahl nicht 1 : 1 in eine Masseeinsparung umgesetzt werden?",
+        "correctAnswer": "Da Al nur etwa 1/3 des E-Moduls von Stahl besitzt (elastische Dehnung, Biegung, Verdrehung 3-mal so groß bei Al), wird ein 3-mal so großer Querschnitt benötigt bei gleicher Last, größere Abmaße -> Widerstandsmoment erhöhen."
+    },
+    {
+        "question": "Unter welcher allgemeinen Bedingung ist der Einsatz von Al gegenüber Stahl im Sinne des Leichtbaus möglich?",
+        "correctAnswer": "Bei vorherrschender freier Baugröße, z.B. durch Vergrößern des Trägers (höheres Widerstandsmoment) -> Masseeinsparung ca. 50%."
+    },
+    {
+        "question": "Welche Kriterien sind bei der Stahlauswahl von Vergütungsstählen anzuwenden?",
+        "correctAnswer": "Härte hängt vom C-Gehalt ab (großer Querschnitt -> viel C gewährleisten für Vergüten), Legierungselemente (LE) können Zähigkeit verbessern, bei gleichbleibender Festigkeit (z.B. Cr, Mo, Ni) -> viel fester als unlegierte Stähle."
+    },
+    {
+        "question": "Durch welche Legierungselemente wird die Korrosionsbeständigkeit von Stahl bedeutend erhöht (mind. 2 angeben)? Worauf beruht diese Beständigkeit?",
+        "correctAnswer": "Mindestens 13% Cr, Ni, Mg, Al; Legierungselemente übertragen ihre Passivität auf den Stahl -> Passivschicht auf dem Stahl."
+    },
+    {
+        "question": "Nennen Sie typische Eigenschaften korrosionsbeständiger ferritischer und austenitischer Stähle!",
+        "correctAnswer": "Ferritischer Stahl: mind. 13% Cr (<0,1% C), krz-Gitter, keine Umwandlung in γ-Phase möglich (umwandlungsfrei), nicht härtbar, Ausscheidungen von Carbiden und intermetallischen Phasen -> Versprödung -> hinzulegieren von Ti, Ni und Wärmebehandlung. Austenitischer Stahl: (V2A – 18% Cr, 8% Ni), keine Gitterumwandlung, nicht härtbar, paramagnetisch, Wärmebehandlung: Lösungsglühen bei 1000°C -> Ausscheidungen sollen in Lösung gehen, Korrosionsbeständigkeit durch Cr, Ni, Mo, Ti, Mn, N, ..."
+    },
+    {
+        "question": "Welches Graue Gusseisen würden Sie für ein auf Zug belastetes Gussstück auswählen? Begründen Sie die Auswahl!",
+        "correctAnswer": "Gusseisen mit Kugelgraphit -> beste Verteilung des Kohlenstoffs, höhere Festigkeit (insbesondere für zyklische Beanspruchung) und höhere Plastizität als Gusseisen mit Lamellengraphit, aber geringeres Dämpfungsvermögen."
+    },
+    {
+        "question": "Weshalb müssen bei Gussstücken aus Gusseisen mit Lamellengraphit die Wandstärken besonders beachtet werden?",
+        "correctAnswer": "Gefügeausbildung hängt von der Wandstärke ab, Festigkeit und Härte sinken mit zunehmender Wanddicke (Bildung grobes Gefüge), Mindestwandstärke beachten."
+    },
+    {
+        "question": "Nennen Sie typische Eigenschaften, die für die Verwendung von Gusseisen maßgebend sind!",
+        "correctAnswer": "Gusseisen mit Lamellengraphit: gute Gieß- und Bearbeitbarkeit, gute Gleit- und Verschleißeigenschaften (z.B. Zahnräder, Bremstrommel), günstige Festigkeitseigenschaften bei hohen Temperaturen (z.B. Kolben, -block vom Verbrennungsmotor), hohe Hitze- und Zunderbeständigkeit, gutes Korrosionsverhalten, gutes Dämpfungsvermögen. Gusseisen mit Kugelgraphit: höhere Festigkeit und Plastizität, aber geringeres Dämpfungsvermögen."
+    },
+    {
+        "question": "Nennen Sie typische Eigenschaften von Aluminiumwerkstoffen! Welche Eigenschaften sind für die Verarbeitung wichtig?",
+        "correctAnswer": "Hohe spezifische Festigkeit einiger Legierungen, sehr gute Korrosionsbeständigkeit (Oxidschicht), hohe Wärme- und elektrische Leitfähigkeit, sehr gute Warmumformbarkeit (z.B. Strangpressen), gut gießbar, umweltverträglich (recycelbar), ausreichend verfügbar, hohe Anzahl von Aluminiumwerkstoffen. Für die Umformbarkeit: relativ weich, geringes E-Modul."
+    },
+    {
+        "question": "Wie wird die Festigkeit bei Al-Werkstoffen eingestellt? Geben Sie die Härtungsmechanismen an und die jeweilige praktische Umsetzung!",
+        "correctAnswer": "Kokillengießen/Druckgießen -> feines Korn -> hohe Festigkeit (Feinkornhärten); Veredelung von Al-Legierungen -> feines Gefüge durch Natrium, Antimon, Strontium (Mischkristallhärtung); geringe Wanddicke -> schnelles Abkühlen."
+    },
+    {
+        "question": "Weshalb kann die geringere Dichte von Al gegenüber Stahl nicht 1:1 in eine Masseeinsparung umgesetzt werden?",
+        "correctAnswer": "Da Al nur etwa 1/3 des E-Moduls von Stahl besitzt (elastische Dehnung, Biegung, Verdrehung 3-mal so groß bei Al), wird ein 3-mal so großer Querschnitt benötigt bei gleicher Last, größere Abmaße -> Widerstandsmoment erhöhen."
+    },
+    {
+        "question": "Unter welcher allgemeinen Bedingung ist der Einsatz von Al gegenüber Stahl im Sinne des Leichtbaus möglich?",
+        "correctAnswer": "Bei vorherrschender freier Baugröße, z.B. Vergrößern des Trägers (höheres Widerstandsmoment) -> Masseeinsparung ca. 50%."
+    },
+    {
+        "question": "Was versteht man unter der Spaltbruchspannung?",
+        "correctAnswer": "Kritische Zugspannung, bei der örtlich ein Spaltbruch entstehen kann."
+    },
+    {
+        "question": "Wie ist die Übergangstemperatur allgemein definiert?",
+        "correctAnswer": "Grenze zwischen sprödem Bruch und duktilem Werkstoffverhalten."
+    },
+    {
+        "question": "Welche Wirkung hat die Erhöhung der Streckgrenze auf die Übergangstemperatur?",
+        "correctAnswer": "Die Übergangstemperatur wird zu höheren Temperaturen verschoben, der Sprödbruchbereich wird vergrößert."
+    },
+    {
+        "question": "Weshalb nimmt die Festigkeit mit steigender Temperatur ab?",
+        "correctAnswer": "Atome werden zum stärkeren Schwingen angeregt, Abnahme der Fernordnung."
+    },
+    {
+        "question": "Weshalb ist eine bestimmte Temperatur für einen Werkstoff hoch, für einen anderen tief?",
+        "correctAnswer": "Schmelztemperaturen sind unterschiedlich, chemische und physikalische Eigenschaften unterscheiden sich."
+    },
+    {
+        "question": "Erklären Sie die Vorgänge, die zu einer ausgeprägten Streckgrenze führen!",
+        "correctAnswer": "Versetzungsfreie Kristalle, Erschwerung der Versetzungsbewegung durch 0-, 1-, 2-, 3-dimensionale Gitterbaufehler. Leichtes Kaltwalzen kann ebenfalls zu einer ausgeprägten Streckgrenze führen."
+    },
+    {
+        "question": "Was versteht man unter zäher bzw. spröder Bruch?",
+        "correctAnswer": "Zähbruch: Energieaufnahme. Sprödbruch: Energieabgabe, Streckgrenze wird nicht erreicht, keine plastische Dehnung."
+    },
+    {
+        "question": "Wodurch werden Brüche hervorgerufen?",
+        "correctAnswer": "Ermüdung, Überbeanspruchung (Beanspruchungsgeschwindigkeit), Überhitzung (Kriechbruch), Unterkühlung (Temperatur sinkt -> spröde), plastische Verformung."
+    },
+    {
+        "question": "Wodurch wird sprödes Verhalten eines Werkstoffs bzw. Bauteils hervorgerufen?",
+        "correctAnswer": "Hohe Beanspruchungsgeschwindigkeit, tiefe Temperatur, mehrachsiger Spannungszustand, grobes Korn, Kerben, Lunker, Alterung, Kaltverformung, Korrosion."
+    },
+    {
+        "question": "Wie wirkt eine erhöhte Beanspruchungsgeschwindigkeit auf die Festigkeit und die Zähigkeit eines Werkstoffs und welche Wirkung haben spröde eingelagerte Phasen und feinkörniges Gefüge?",
+        "correctAnswer": "Hohe Geschwindigkeit: Festigkeit nimmt zu, Zähigkeit ab. Feines Gefüge: Zähigkeit nimmt zu, Festigkeit zu. Eingelagerte spröde Phase: Zähigkeit sinkt, Festigkeit steigt."
+    },
+    {
+        "question": "Was versteht man unter der Spaltbruchspannung?",
+        "correctAnswer": "Kritische Zugspannung, bei der örtlich ein Spaltbruch entstehen kann."
+    },
+    {
+        "question": "Wie ist die Übergangstemperatur allgemein definiert?",
+        "correctAnswer": "Grenze zwischen sprödem Bruch und duktilem Werkstoffverhalten."
+    },
+    {
+        "question": "Welche Wirkung hat die Erhöhung der Streckgrenze auf die Übergangstemperatur?",
+        "correctAnswer": "Die Übergangstemperatur wird zu höheren Temperaturen verschoben, der Sprödbruchbereich wird vergrößert."
+    },
+    {
+        "question": "Weshalb nimmt die Festigkeit mit steigender Temperatur ab?",
+        "correctAnswer": "Atome werden zum stärkeren Schwingen angeregt, Abnahme der Fernordnung."
+    },
+    {
+        "question": "Weshalb ist eine bestimmte Temperatur für einen Werkstoff hoch, für einen anderen tief?",
+        "correctAnswer": "Schmelztemperaturen sind unterschiedlich, chemische und physikalische Eigenschaften unterscheiden sich."
+    }
+]
