@@ -90,28 +90,6 @@ def save_answer_catalog(catalog):
     except Exception as e:
         print(f"Fehler beim Speichern des Antwortkatalogs in {CATALOG_FILE}: {e}")
 
-
-# ...existing code...
-
-# Hauptprogramm-Start ans Dateiende verschoben, damit alle Klassen bekannt sind
-if __name__ == '__main__':
-    print("Teste Lade-/Speicherfunktionen...")
-    current_questions = load_questions()
-    print(f"Geladene Fragen: {len(current_questions)}")
-    current_catalog = load_answer_catalog()
-    print(f"Geladener Katalog: {len(current_catalog)} Einträge. Beispiel: {current_catalog[:3]}")
-
-    print("\n--- Werkstoffquiz GUI wird hier starten ---")
-    root = tk.Tk()
-    app = WerkstoffquizApp(root)
-    root.mainloop()
-
-
-import tkinter as tk
-from tkinter import messagebox
-
-# ...existing code...
-
 class WerkstoffquizApp:
     def __init__(self, root_tk):
         self.root = root_tk
@@ -222,15 +200,11 @@ class WerkstoffquizApp:
         save_answer_catalog(self.answer_catalog)
         print("Daten gespeichert.")
 
-    # placeholder_command wird nicht mehr benötigt, da die Menüpunkte jetzt echte Funktionen aufrufen.
-    # def placeholder_command(self): 
-    #     messagebox.showinfo("Platzhalter", "Diese Funktion wird noch implementiert.")
-
     def display_question(self):
         """Zeigt eine neue zufällige Frage und Antwortmöglichkeiten an."""
-        # Reset der Button-Farben, falls sie im check_answer geändert wurden (optional)
-        # for btn in self.answer_buttons:
-        #     btn.config(bg=self.root.cget('bg')) # Standardhintergrundfarbe
+        # Reset der Button-Farben
+        for btn in self.answer_buttons:
+            btn.config(bg=self.root.cget('bg'), activebackground=self.root.cget('bg')) # Standardhintergrundfarbe
 
         if not self.questions:
             self.question_label.config(text="Keine Fragen vorhanden. Bitte fügen Sie Fragen hinzu.")
@@ -240,7 +214,6 @@ class WerkstoffquizApp:
             self.feedback_label.config(text="")
             return
 
-        # Mindestens 2 Distraktoren für 3 Antwortmöglichkeiten (1 korrekte + 2 falsche)
         if len(self.answer_catalog) < 2:
             self.question_label.config(text="Antwortkatalog hat zu wenige Einträge (<2). Bitte ergänzen.")
             for btn in self.answer_buttons:
@@ -249,15 +222,10 @@ class WerkstoffquizApp:
             self.feedback_label.config(text="")
             return
 
-        # Zufällige Frage auswählen (Implementierung fehlt noch - für jetzt die erste)
-        # TODO: Logik für `available_question_indices` wie in JS-Version oder einfacher für Python
-        import random
-        current_question_data = random.choice(self.questions) # Einfache zufällige Auswahl für jetzt
-        
+        current_question_data = random.choice(self.questions)
         self.current_correct_answer_text = current_question_data["correctAnswer"]
         self.question_label.config(text=current_question_data["question"])
 
-        # Distraktoren auswählen
         possible_distractors = [ans for ans in self.answer_catalog if ans.lower() != self.current_correct_answer_text.lower()]
         
         if len(possible_distractors) < 2:
@@ -272,39 +240,41 @@ class WerkstoffquizApp:
         chosen_distractors = possible_distractors[:2]
 
         answer_options = chosen_distractors + [self.current_correct_answer_text]
-        random.shuffle(answer_options) # Antworten mischen
+        random.shuffle(answer_options)
 
-        # Buttons aktualisieren: Text setzen, aktivieren, zentrieren, Breite dynamisch
         for i, btn in enumerate(self.answer_buttons):
             btn.config(
                 text=answer_options[i],
                 state=tk.NORMAL,
                 anchor="center",
                 justify="center",
-                command=lambda answer=answer_options[i]: self.check_answer(answer)
+                command=lambda answer=answer_options[i], button_ref=btn: self.check_answer(answer, button_ref)
             )
         self._update_button_wraplength()
         self.feedback_label.config(text="")
-        self.next_question_button.config(state=tk.DISABLED, command=self.display_question) # Nächste Frage Button
+        self.next_question_button.config(state=tk.DISABLED, command=self.display_question)
 
 
-    def check_answer(self, selected_answer_text):
+    def check_answer(self, selected_answer_text, selected_button):
         """Überprüft die ausgewählte Antwort und gibt Feedback."""
         is_correct = (selected_answer_text == self.current_correct_answer_text)
 
         for btn in self.answer_buttons:
             btn.config(state=tk.DISABLED) # Alle Antwortbuttons deaktivieren
-            # Optional: Buttons farblich markieren (erfordert mehr Code für Zurücksetzen)
-            # if btn.cget("text") == self.current_correct_answer_text:
-            #     btn.config(bg="lightgreen")
-            # elif btn.cget("text") == selected_answer_text and not is_correct:
-            #     btn.config(bg="salmon")
+            if btn.cget("text") == self.current_correct_answer_text:
+                btn.config(bg="lightgreen", activebackground="lightgreen")
+            elif btn == selected_button and not is_correct: # Falsch ausgewählter Button
+                btn.config(bg="salmon", activebackground="salmon")
+            else: # Nicht ausgewählte falsche Antworten
+                btn.config(bg=self.root.cget('bg'), activebackground=self.root.cget('bg'))
 
 
         if is_correct:
             self.feedback_label.config(text="Richtig!", fg="green")
+            selected_button.config(bg="lightgreen", activebackground="lightgreen")
         else:
             self.feedback_label.config(text=f"Falsch! Richtig wäre: {self.current_correct_answer_text}", fg="red")
+            selected_button.config(bg="salmon", activebackground="salmon")
         
         self.next_question_button.config(state=tk.NORMAL)
 
@@ -315,13 +285,13 @@ class AddQuestionDialog:
         self.questions = questions_list
         self.catalog = catalog_list
         self.save_callback = save_callback
-        self.question_added = False # Flag, um zu verfolgen, ob eine Frage hinzugefügt wurde
+        self.question_added = False
 
         self.top = tk.Toplevel(parent)
         self.top.title("Neue Frage hinzufügen")
         self.top.geometry("400x200")
-        self.top.transient(parent) # Dialog bleibt über dem Hauptfenster
-        self.top.grab_set() # Modal Verhalten
+        self.top.transient(parent)
+        self.top.grab_set()
 
         tk.Label(self.top, text="Frage:", font=("Arial", 12)).pack(pady=(10,0))
         self.question_entry = tk.Entry(self.top, width=50, font=("Arial", 10))
@@ -349,10 +319,8 @@ class AddQuestionDialog:
             messagebox.showerror("Fehler", "Frage und korrekte Antwort dürfen nicht leer sein.", parent=self.top)
             return
 
-        # Frage hinzufügen
         self.questions.append({"question": question_text, "correctAnswer": correct_answer_text})
         
-        # Korrekte Antwort zum Katalog hinzufügen, falls nicht vorhanden (case-insensitive)
         found_in_catalog = False
         for item in self.catalog:
             if item.lower() == correct_answer_text.lower():
@@ -362,7 +330,7 @@ class AddQuestionDialog:
             self.catalog.append(correct_answer_text)
             print(f"'{correct_answer_text}' zum Katalog hinzugefügt.")
 
-        self.save_callback() # Ruft self.master.save_all_data() auf
+        self.save_callback()
         self.question_added = True 
         messagebox.showinfo("Erfolg", "Frage erfolgreich gespeichert.", parent=self.top)
         self.top.destroy()
@@ -380,7 +348,6 @@ class ManageCatalogDialog:
         self.top.transient(parent)
         self.top.grab_set()
 
-        # Frame für Eingabe
         input_frame = tk.Frame(self.top)
         input_frame.pack(pady=10, padx=10, fill=tk.X)
         
@@ -390,7 +357,6 @@ class ManageCatalogDialog:
         add_button = tk.Button(input_frame, text="Hinzufügen", command=self.add_to_catalog, font=("Arial", 10))
         add_button.pack(side=tk.LEFT, padx=5)
 
-        # Frame für Listbox und Scrollbar
         list_frame = tk.Frame(self.top)
         list_frame.pack(pady=5, padx=10, expand=True, fill=tk.BOTH)
 
@@ -403,19 +369,14 @@ class ManageCatalogDialog:
 
         self.populate_listbox()
 
-        # Schließen Button
         close_button = tk.Button(self.top, text="Schließen", command=self.top.destroy, font=("Arial", 10))
         close_button.pack(pady=10)
 
         self.catalog_entry.focus_set()
-        # Optional: Delete-Button für Listbox-Einträge (erfordert mehr Logik)
-        # delete_entry_button = tk.Button(self.top, text="Ausgewählte löschen", command=self.delete_selected_from_catalog, font=("Arial", 10))
-        # delete_entry_button.pack(pady=5)
-
 
     def populate_listbox(self):
-        self.catalog_listbox.delete(0, tk.END) # Alte Einträge löschen
-        for item in sorted(self.catalog, key=str.lower): # Sortiert anzeigen
+        self.catalog_listbox.delete(0, tk.END)
+        for item in sorted(self.catalog, key=str.lower):
             self.catalog_listbox.insert(tk.END, item)
 
     def add_to_catalog(self):
@@ -435,36 +396,12 @@ class ManageCatalogDialog:
             return
 
         self.catalog.append(new_answer)
-        self.save_callback() # Speichert den gesamten Katalog
-        self.populate_listbox() # Listbox aktualisieren
-        self.catalog_entry.delete(0, tk.END) # Eingabefeld leeren
+        self.save_callback()
+        self.populate_listbox()
+        self.catalog_entry.delete(0, tk.END)
         messagebox.showinfo("Erfolg", f"'{new_answer}' zum Katalog hinzugefügt.", parent=self.top)
 
-    # def delete_selected_from_catalog(self):
-    #     selected_indices = self.catalog_listbox.curselection()
-    #     if not selected_indices:
-    #         messagebox.showwarning("Warnung", "Kein Eintrag zum Löschen ausgewählt.", parent=self.top)
-    #         return
-        
-    #     # Von unten nach oben löschen, um Indexprobleme zu vermeiden
-    #     for index in reversed(selected_indices):
-    #         selected_item_text = self.catalog_listbox.get(index)
-    #         # Item auch aus der self.catalog Liste entfernen
-    #         # Dies erfordert eine sorgfältige Übereinstimmung, da die Listbox sortiert sein kann
-    #         # und die self.catalog Liste nicht unbedingt. Am besten über den Text gehen.
-    #         try:
-    #             self.catalog.remove(selected_item_text) # Vorsicht bei Duplikaten mit unterschiedlicher Groß-/Kleinschreibung
-    #         except ValueError:
-    #             print(f"Konnte {selected_item_text} nicht aus self.catalog entfernen.")
-    #             pass # Element nicht gefunden (sollte nicht passieren, wenn populate_listbox korrekt ist)
-
-    #     self.save_callback()
-    #     self.populate_listbox()
-    #     messagebox.showinfo("Erfolg", "Ausgewählte Einträge gelöscht.", parent=self.top)
-
-
 if __name__ == '__main__':
-    # Test der Lade-/Speicherfunktionen
     print("Teste Lade-/Speicherfunktionen...")
     current_questions = load_questions()
     print(f"Geladene Fragen: {len(current_questions)}")
