@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zufällige Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz App</h1>
+
+        <div id="no-questions-message" class="hidden">
+            <p>Bitte füge zuerst Fragen hinzu, um das Quiz zu starten!</p>
+            <button id="show-add-question-modal-initial" class="add-question-button">Frage hinzufügen</button>
+        </div>
+
+        <div id="quiz-area" class="hidden">
+            <div id="question-container">
+                <h2 id="question-text">Fragetext hier</h2>
+            </div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn answer-btn">Antwort 1</button>
+                <button class="btn answer-btn">Antwort 2</button>
+                <button class="btn answer-btn">Antwort 3</button>
+            </div>
+            <div id="feedback-container">
+                <p id="feedback-text"></p>
+            </div>
+            <button id="next-question-btn" class="btn hidden">Nächste Frage</button>
+        </div>
+
+        <button id="show-add-question-modal" class="add-question-button-fixed">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            <span>Frage hinzufügen</span>
+        </button>
+    </div>
+
+    <div id="add-question-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Neue Frage hinzufügen</h2>
+            <form id="add-question-form">
+                <label for="new-question">Frage:</label>
+                <textarea id="new-question" rows="3" required></textarea>
+
+                <label for="answer1">Antwort 1:</label>
+                <input type="text" id="answer1" required>
+
+                <label for="answer2">Antwort 2:</label>
+                <input type="text" id="answer2" required>
+
+                <label for="answer3">Antwort 3:</label>
+                <input type="text" id="answer3" required>
+
+                <label for="correct-answer">Richtige Antwort:</label>
+                <select id="correct-answer" required>
+                    <option value="0">Antwort 1</option>
+                    <option value="1">Antwort 2</option>
+                    <option value="2">Antwort 3</option>
+                </select>
+
+                <button type="submit" class="btn">Frage speichern</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
